@@ -1,4 +1,21 @@
 @charset "UTF-8";
+@font-face{
+  font-family: 'Lobster';
+  src: url('../assets/fonts/Lobster-Regular.ttf');
+}
+@font-face{
+  font-family:'Roboto Slab';
+  src: url('../assets/fonts/RobotoSlab-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf'), url('../assets/fonts/Montserrat-Bold.ttf');
+}
+@font-face{
+  font-family: 'Droid Serif';
+  src: url('../assets/fonts/DroidSerif-Regular.ttf'), url('../assets/fonts/DroidSerif-Italic.ttf'),
+  url('../assets/fonts/DroidSerif-BoldItalic.ttf'),url('../assets/fonts/DroidSerif-Bold.ttf')
+}
 /*!
 * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2020 Start Bootstrap
@@ -10492,4 +10509,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.hide-ele{
+  margin-right: 0rem!important;
+  display: none;
+}
+
 
