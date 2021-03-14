@@ -30,8 +30,35 @@
         }
     });
     $("#lan-change").click(function(){
-        $(".en").toggleClass("hide-ele");
-        $(".cn").toggleClass("hide-ele");
+        $(".yellow_toggle").toggleClass("yellow")
+       if($("#n-top")[0].innerHTML=="Home"){
+        $(".cn").show();
+        $(".en").hide();
+
+        
+        $("#n-top")[0].innerHTML="主页";
+
+        $("#n-port")[0].innerHTML="项目经历";
+        $("#n-port").attr("href","#portfolio-1");
+
+        $("#n-about")[0].innerHTML="关于";
+        $("#n-about").attr("href","#aboutcn");
+        
+       }
+       else{
+        $(".cn").hide();
+        $(".en").show();
+        $("#n-top")[0].innerHTML="Home";
+
+        $("#n-port")[0].innerHTML="Projects";
+        $("#n-port").attr("href","#portfolio");
+
+        $("#n-about")[0].innerHTML="About";
+        $("#n-about").attr("href","#about");
+       
+       }
+
+
     });
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {
