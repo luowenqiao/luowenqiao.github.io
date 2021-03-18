@@ -6,6 +6,9 @@
     (function ($) {
     "use strict"; // Start of use strict
 
+    $('.carousel').carousel({
+        interval: 3000
+      })
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
@@ -43,6 +46,10 @@
 
         $("#n-about")[0].innerHTML="关于";
         $("#n-about").attr("href","#aboutcn");
+
+        $("#n-gallery")[0].innerHTML="画廊";
+        $("#g-name")[0].innerHTML="画廊";
+        $("#g-title")[0].innerHTML="我的绘画作品。";
         
        }
        else{
@@ -55,6 +62,10 @@
 
         $("#n-about")[0].innerHTML="About";
         $("#n-about").attr("href","#about");
+
+        $("#n-gallery")[0].innerHTML="Gallery";
+        $("#g-name")[0].innerHTML="Gallery";
+        $("#g-title")[0].innerHTML="A gallery of my paintings.";
        
        }
 

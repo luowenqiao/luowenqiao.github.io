@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="anim.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="bg">
+    <div id="frame">
+        <div id="floor">
+            <div id="playRing" class="stopRing"></div>
+            <div id="dropping"></div>
+            <div id="cleanWater"></div>
+
+            <div id="pet" class="vacant"></div>
+
+            <div id="eatBowl"></div>
+            <div id="food" ></div>
+            <div id="medicineBowl"></div>
+            <div id="medicine"></div>
+            <div id="bubbles"></div>
+        </div>
+    </div>
+    
+    <br>
+    <div id="buttonGroup">
+    <button><img src="assets/icons/sleep_icon.png" id="sleepIcon"><br>Sleep/Awake</button>
+    <button><img src="assets/icons/food_icon.png"><br>Feed</button>
+    <button><img src="assets/icons/flush_icon.png"><br>Flush</button>
+    <button><img src="assets/icons/shower_icon.png"><br>Shower</button>
+    <button><img src="assets/icons/play_icon.png"><br>Play</button>
+    <button><img src="assets/icons/medicine_icon.png"><br>Medicine</button>
+    <button><img src="assets/icons/status_icon.png"><br>Status</button>
+    </div>
+</div>
+    <div id="statusCanvas">
+        <div class="bar" id="sleep">
+            <div class="innerBar">
+                <span>Sleepiness</span>
+            </div>
+        </div>
+
+        <div class="bar" id="hunger">
+            <div class="innerBar">
+            <span>Hunger</span>
+            </div>
+        </div>
+
+        <div class="bar" id="poop">
+            <div class="innerBar">
+            <span>Cleanliness</span>
+        </div>
+
+        <div class="bar" id="happiness">
+            <div class="innerBar">
+            <span>Happiness</span>
+            </div>
+        </div>
+
+        <div class="bar" id="health">
+            <div class="innerBar">
+            <span>Health</span>
+            </div>
+        </div>
+        
+    </div>
+    <!--
+    <div id="petName">
+        <input type="text" value="enter a name" id="nameFrame"> 
+        <input type="button" value="Enter" id="enterButton">
+    </div>-->
+    
+    
+    <script src="jscode/elem_statements.js"></script>
+    <script src="jscode/state_check.js"></script>
+
+    <script src="jscode/f_sleep.js"></script>
+    <script src="jscode/f_eat.js"></script>
+    <script src="jscode/f_clean.js"></script>
+    <script src="jscode/f_happiness.js"></script>
+    <script src="jscode/f_health.js"></script>
+    
+    <script src="jscode/main.js"></script>
+</body>
+</html>

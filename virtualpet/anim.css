@@ -1,0 +1,185 @@
+.runningRing{
+    animation:runningring steps(3,end) 500ms infinite;
+    -webkit-animation: runningring steps(3,end) 500ms infinite;
+    
+}
+@keyframes runningring{  
+    100%{   background-position: -768px -260px;  }
+}
+@-webkit-keyframes runningring{  
+    100%{   background-position: -768px -260px;  }
+}
+
+.declineFood{
+    animation:declinefood steps(3,end) 2s;
+    -webkit-animation: declinefood steps(3,end) 2s;
+}
+@keyframes declinefood{
+    100%{   background-position: -768px -620px;  }
+}
+@-webkit-keyframes declinefood{
+    100%{   background-position: -768px -620px;  }
+}
+.declineMedicine{
+    animation:declinemedicine steps(2,end) 2s;
+    -webkit-animation: declinemedicine steps(2,end) 2s;
+}
+@keyframes declinemedicine{
+    100%{   background-position: -800px -225px;  }
+}
+@-webkit-keyframes declinemedicine{
+    100%{   background-position: -800px -225px;  }
+}
+
+#bubbles{
+    animation:bubbles steps(2,end) 2s infinite;
+    -webkit-animation: bubbles steps(2,end) 2s infinite;
+}
+@keyframes bubbles{
+    100%{  background-position: -230px 100px;  }
+}
+@-webkit-keyframes bubbles{
+    100%{   background-position: -230px 100px;}
+}
+
+
+/*pets*/
+
+.vacant{
+    top:280px;
+    left:190px;
+    background-position: 0px 0px;
+    animation:vacant steps(2,end) 1500ms 1s infinite;
+    -webkit-animation: vacant steps(2,end) 1500ms 1s infinite;
+}
+@keyframes vacant{
+    0%{     background-position: -900px 0px;    }
+    100%{   background-position: -1155px -255px;}
+}
+@-webkit-keyframes vacant{
+    0%{     background-position: -900px 0px;    }
+    100%{   background-position: -1155px -255px;}
+}
+
+.runningPet{
+    top:102px;
+    left:166px;
+    animation:runningpet steps(2,end) 500ms infinite;
+    -webkit-animation: runningpet steps(2,end) 500ms infinite;
+}
+@keyframes runningpet{
+    0%{     background-position: -640px 0px;}
+    100%{   background-position: -900px 0px;}
+}
+@-webkit-keyframes runningpet{
+    0%{     background-position: -640px 0px;}
+    100%{   background-position: -900px 0px;}
+}
+
+.eatingPet{
+    top:350px;
+    right:95px;
+    transform: rotateY(180deg);
+    animation:eatingpet steps(2,end) 500ms infinite;
+    -webkit-animation: eatingpet steps(2,end) 500ms infinite;
+}
+@keyframes eatingpet{
+    0%{     background-position: -255px -125px;}
+    100%{   background-position: -515px -125px;}
+}
+@-webkit-keyframes eatingpet{
+    0%{     background-position: -255px -125px;}
+    100%{   background-position: -515px -125px;}
+}
+
+.sleepingPet{
+    top:280px;
+    left:190px;
+    animation:sleepingpet steps(2,end) 800ms infinite;
+    -webkit-animation: sleepingpet steps(2,end) 800ms infinite;
+}
+@keyframes sleepingpet{
+    0%{     background-position: -256px -260px;}
+    100%{   background-position: -517px -260px;}
+}
+@-webkit-keyframes sleepingpet{
+    0%{     background-position: -256px -260px;}
+    100%{   background-position: -517px -260px;}
+}
+
+.cleaningPet{
+    top:300px;
+    left:90px;
+    animation:cleaningpet steps(2,end) 700ms infinite;
+    -webkit-animation: cleaningpet steps(2,end) 700ms infinite;
+}
+@keyframes cleaningpet{
+    0%{     background-position: -640px -260px;}
+    100%{   background-position: -895px -260px;}
+}
+@-webkit-keyframes
+cleaningpet{
+    0%{     background-position: -640px -260px;}
+    100%{   background-position: -895px -260px;}
+}
+
+.takingMedicinePet{
+    top:380px;
+    left:100px;  
+    animation:takingmedicinepet steps(2,end) 500ms infinite;
+    -webkit-animation: takingmedicinepet steps(2,end) 500ms infinite;
+}
+@keyframes takingmedicinepet{
+    0%{     background-position: -255px -125px;}
+    100%{   background-position: -515px -125px;}
+}
+@-webkit-keyframes takingmedicinepet{
+    0%{     background-position: -255px -125px;}
+    100%{   background-position: -515px -125px;}
+}
+
+.angryPet{
+    top:280px;
+    left:190px;
+    animation:angrypet steps(2,end) 1s infinite;
+    -webkit-animation: angrypet steps(2,end) 1s infinite;
+}
+@keyframes angrypet{
+    0%{     background-position: -905px -134px;}
+    100%{   background-position: -1145px -372px;}
+}
+@-webkit-keyframes angrypet{
+    0%{     background-position: -905px -134px;}
+    100%{   background-position: -1145px -372px;}
+}
+
+.sickPet{
+    top:280px;
+    left:190px;
+    animation:sickpet steps(1,end) 2s  infinite;
+    -webkit-animation: sickpet steps(1,end) 2s infinite;
+}
+@keyframes sickpet{
+    0%{   background-position: -770px -130px;}
+}
+@-webkit-keyframes sickpet{
+    0%{   background-position: -770px -130px;}
+}
+
+.awakePet{
+    top:280px;
+    left:190px;
+    animation:awakepet steps(2,end) 2s;
+    -webkit-animation: awakepet steps(2,end) 2s;
+}
+@keyframes awakepet{
+    0%{     background-position: -126px -125px;}
+    100%{   background-position: -895px -380px;}
+}
+@-webkit-keyframes awakepet{
+    0%{     background-position: -126px -125px;}
+    100%{   background-position: -895px -380px;}
+}
+
+
+
